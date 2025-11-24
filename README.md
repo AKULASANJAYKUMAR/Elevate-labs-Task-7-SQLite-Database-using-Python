@@ -1,36 +1,40 @@
-📊 Basic Sales Summary using SQLite & Python
-📌 Task Overview
-This task demonstrates how to extract basic sales summary information from a small SQLite database using Python.
-I created a tiny database, ran SQL queries through Python, and visualized the results using a simple bar chart.
-🔧 Steps Performed
-Created a SQLite database file (sales_data.db)
-Created a sales table and inserted sample records
-Connected to the database using sqlite3 in Python
-Executed a SQL query to calculate:
-Total quantity sold per product
-Total revenue per product
-Loaded SQL output into a pandas DataFrame
-Printed the summary results
-Plotted a bar chart of revenue using matplotlib
-Saved the bar chart as sales_chart.png
-🛠 Tools Used
-Python
-sqlite3
-pandas
-matplotlib
-Google Colab
-📂 Files Included
-sales_data.db
-Task7.ipynb (notebook)
-sales_chart.png
-screenshots/ (output proofs)
-📷 Output Highlights
-Printed summary table
-Revenue bar chart
-SQLite DB created successfully
-Files visible in Colab panel
-🎯 Learning Outcome
-Running SQL inside Python
-Using GROUP BY
-Importing SQL results into pandas
-Simple chart visualization
+
+
+# 📊 Basic Sales Summary using SQLite & Python
+
+## Overview
+
+This task extracts a basic sales summary from a small SQLite database using Python.
+The objective is to run a SQL query inside Python, display the results, and create a simple sales chart.
+
+## Steps Completed
+
+* Created a SQLite database file (`sales_data.db`)
+* Created a `sales` table with sample records
+* Connected to the database using `sqlite3`
+* Ran a SQL query with `GROUP BY`
+* Loaded results into pandas DataFrame
+* Printed the summary table
+* Created a revenue bar chart using matplotlib
+* Saved the chart as `sales_chart.png`
+
+## Tools Used
+
+* Python
+* sqlite3
+* pandas
+* matplotlib
+* Google Colab
+
+## Files Included
+
+* `Task7.ipynb`
+* `sales_data.db`
+* `sales_chart.png`
+* `screenshots/`
+
+## Output Screenshots
+
+* Code execution
+* DataFrame output
+* Bar chart
